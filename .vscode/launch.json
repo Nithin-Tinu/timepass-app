@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TimepassApplication",
+            "request": "launch",
+            "mainClass": "com.demo.TimepassApplication",
+            "projectName": "timepass"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TimepassApplication<timepass>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.demo.timepass.TimepassApplication",
+            "projectName": "timepass",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
